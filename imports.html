@@ -1,0 +1,412 @@
+<!Doctype html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <title>Forestal Machipisa Pharmacy, Harare, ZW</title>        
+        <!--Set the viewport so the page adjusts according to the device-->
+        <meta name = "viewport" content= "width=device-width, initial-scale=1">
+        <!--Add the 2 content delivery network links for Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">        
+        <!--Can still add a Style Sheet-->
+        <link rel = "stylesheet" href="imports.css">    
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+
+    
+        <body>
+            <!--Nav container-->
+            <div class ="container">
+                <header>
+                    <!-- Navigation bar with embedded logo and searchbar. Not a single CSS used except CDN styles and scripts-->
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="Forestal logo2.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                                Forestal
+                            </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="aboutus.html">About Us</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="visitus.html">Visit Us</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Additional Services
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="">Current Offers</a></li>
+                                <li><a class="dropdown-item" href="imports.html">Imported Products</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="custom_req.html">Custom Requests</a></li>
+                                </ul>
+                            </li>
+                            
+                            </ul>
+                            
+                            <!--Contact us button-->
+                            <a href="mailto:your-email@example.com" class="btn btn-outline-success">Contact Us</a>
+                        </div>
+                        </div>
+                    </nav>
+                    <!-- /.navbar-collapse -->
+                </header>
+            </div>
+            <!--/.Nav container end-->
+            
+            <br>
+            <br>
+            <!-- Content container -->
+            <div class="container">
+                <h1>Imported Products</h1>
+                <div class="row">                    
+                    <!-- Card 1 -->
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="always pads.jpg" class="card-img-top" alt="..." width="200" height="250">
+                            <div class="card-body">
+                                <h5 class="card-title">Women's Health</h5>
+                                <p class="card-text">Health and Upkeep Products.</p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#productModal1">View Product Range</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal for Card 1 -->
+                    <div class="modal fade bd-example-modal-sm" id="productModal1" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-sm">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Women's Health Product Range</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>
+                                        <li><img src="always pads.jpg" width="40px" height="40px"> Women's pads</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/tampax.jpg" width="40px" height="40px">Tampons</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/always liners.jpg" width="40px" height="40px">Liner Pads</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/fertility test.jpg" width="40px" height="40px">Fertility Tests</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--./End of Modal 1-->
+
+                    <!--Card 2-->
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="glasses.jpg" class="card-img-top" alt="..." width="200" height="250">
+                            <div class="card-body">
+                                <h5 class="card-title">Opticians</h5>
+                                <p class="card-text">Reading glasses and fashion.</p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#productModal2">View Product Range</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Modal for Card 2-->
+                    <div class="modal fade bd-example-modal-sm" id="productModal2" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-sm">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Opticians</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>                                        
+                                        <li><img src="Forestal Exports/reading glasses.jpg" width="40px" height="40px">Reading glasses</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/sunglasses.jpg" width="40px" height="40px">Sunglasses</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/contact-lenses.jpg" width="40px" height="40px">Contact lenses</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--./End of Modal for Card 2-->
+                    
+                    <!--Card 3-->
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="Electronics.png" class="card-img-top" alt="..." width="200" height="250">
+                            <div class="card-body">
+                                <h5 class="card-title">Home and Electronic Goods</h5>
+                                <p class="card-text">From small electronics such as batteries to shavers and foot massagers.</p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#productModal3">View Product Range</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Modal for card 3-->
+                    <div class="modal fade bd-example-modal-sm" id="productModal3" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-sm">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Home and Electronic offers</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>                                        
+                                        <li><img src="Forestal Exports/philips shaver.png" width="40px" height="40px">Electric shavers</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/hair straightener.jpg" width="40px" height="40px">Hair straightener</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/homedicsLeg.jpg" width="40px" height="40px">Leg exerciser for blood circulation</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/foot massage.jpg" width="40px" height="40px">Foot massage</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/air purifier.jpg" width="40px" height="40px">Air purifier</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/Rechargeable batteries.jpg" width="40px" height="40px">Rechargeable batteries: AA, AAA, C, D, 12V</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/air purifier.jpg" width="40px" height="40px">Air Purifier</li>
+                                        <hr>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of Modal for card 3-->
+
+
+                </div>
+                <!--End of first div row of 3-->
+                <br>
+
+                <!--New row of 3-->
+                <div class = "row">
+                    <!--Card 4-->
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="Baby department.png" class="card-img-top" alt="..." width="200" height="250">
+                            <div class="card-body">
+                                <h5 class="card-title">Baby Department</h5>
+                                <p class="card-text">Nappies, wipes and accessories.</p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#productModal4">View Product Range</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Modal for card 4-->
+                    <div class="modal fade bd-example-modal-sm" id="productModal4" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-sm">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Baby Department</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>                                        
+                                        <li><img src="Forestal Exports/steriliser.jpg" width="40px" height="40px">Steriliser for Bottles etc</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/pram.jpg" width="40px" height="40px">Prams and Car seats</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/baby carrier.jpg" width="40px" height="40px">Baby carrier</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/pampers.jpg" width="40px" height="40px">Disposable nappies</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/Pampers wipes.png" width="40px" height="40px">Baby wipes</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/high chair.png" width="40px" height="40px">Baby High chairs</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/baby formula.jpg" width="40px" height="40px">Formula Milk</li>
+                                        <hr>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--./End of Modal for card 4-->
+
+                    <!--Card 5-->
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="Toy department.png" class="card-img-top" alt="..." width="200" height="250">
+                            <div class="card-body">
+                                <h5 class="card-title">Toy Department</h5>
+                                <p class="card-text">Toys of all ages</p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#productModal5">View Product Range</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Modal for card 5-->
+                    <div class="modal fade bd-example-modal-sm" id="productModal5" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-sm">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Toy Department</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>                                        
+                                        <li><img src="Forestal Exports/rocket.jpg" width="40px" height="40px">Lego, Building and Construction toys</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/wooden vehicles.jpg" width="40px" height="40px">Wooden Toys</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/rattle toys.jpg" width="40px" height="40px">Teethers and first toys</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/Rideon Merc.jpg" width="40px" height="40px">Ride-on electric cars</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/doll.jpg" width="40px" height="40px">Dolls</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/rc range rover.jpg" width="40px" height="40px">Remote Control Cars</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/rc drones.jpg" width="40px" height="40px">Drones- remote controlled</li>
+                                        <hr>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--./End of Modal for card 5-->
+
+                    <!--Card 6-->
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="Stationery dept.png" class="card-img-top" alt="..." width="200" height="250">
+                            <div class="card-body">
+                                <h5 class="card-title">Stationery Department</h5>
+                                <p class="card-text">School and office supplies</p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#productModal6">View Product Range</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Modal for card 6-->
+                    <div class="modal fade bd-example-modal-sm" id="productModal6" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-sm">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Stationery Department</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>                                        
+                                        <li><img src="Forestal Exports/birthday cards.jpg" width="40px" height="40px">Greeting cards- Birthday, Valentines etc</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/backpack.jpg" width="40px" height="40px">Bakcpacks bags</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/calculator.jpg" width="40px" height="40px">Scientific Calculators</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/erasers.jpg" width="40px" height="40px">Pen, Pencils, Rubbers</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/pencil case.jpg" width="40px" height="40px">Pencil case</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/math set.jpg" width="40px" height="40px">Maths sets</li>
+                                        <hr>
+                                        <li><img src="Forestal Exports/flat-file.jpg" width="40px" height="40px">Flat files and Folders</li>
+                                        <hr>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--./End of Modal for card 6-->
+
+                </div>
+                <!--End of 2nd row-->
+            </div>
+                        
+            <!-- Footer container-->
+            <div class="container">
+                <!-- Footer -->
+                <footer class="custom-footer text-center text-lg-start">
+                    <!-- Grid container -->
+                    <div class="container p-4">
+                        <!-- Section: Links -->
+                        <section class="mb-4">
+                            <!--Grid row-->
+                            <div class="row">
+                                <!-- Grid column -->
+                                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                                    <p>Forestal Pharmacy, Stand 4097, Highfields, Harare, Zimbabwe</p>
+                                </div>
+                                <!-- Grid column -->
+            
+                                <!-- Grid column -->
+                                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                                    <p><a class="text-blue" href="Forestal2.html">Home Page</a></p>
+                                    <p><a class="text-blue" href="aboutus.html">About us</a></p>
+                                    <p><a class="text-blue" href="#">Our other Locations</a></p>
+                                    <p><a class="text-blue" href="custom_req.html">Custom Services</a></p>
+                                </div>
+                                <!-- Grid column -->
+            
+                                <!-- Grid column -->
+                                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                                    <h6 class="text-uppercase mb-4 font-weight-bold">Contact Us</h6>
+                                    <p><i class="fas fa-envelope mr-3"></i> <span style="font-weight: bold;">help@forestal.com</span></p>
+                                    <p><i class="fas fa-phone mr-3"></i> <span style="font-weight: bold;">+263 787 613 176</span></p>
+                                </div>
+                                <!-- Grid column -->
+            
+                                <!-- Grid column -->
+                                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                                    <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+            
+                                    <!-- Facebook -->
+                                    <a class="btn btn-primary btn-floating m-1" href="https://www.facebook.com/" role="button">
+                                        <img id="facebook-icon" src="facebook.png" alt="Facebook Icon">
+                                    </a>
+            
+                                    <!-- Twitter -->
+                                    <a class="btn btn-primary btn-floating m-1" href="https://twitter.com/home" role="button">
+                                        <img id="twitter-icon" src="twitter x.jpg" alt="Twitter Icon">
+                                    </a>
+            
+                                    <!-- Linkedin -->
+                                    <a class="btn btn-primary btn-floating m-1" href="https://www.linkedin.com/feed/" role="button">
+                                        <img id="linkedin-icon" src="linkedin.jpg" alt="LinkedIn Icon">
+                                    </a>
+                                </div>
+                            </div>
+                            <!--Grid row-->
+                        </section>
+                        <!-- Section: Links -->
+            
+                        <!-- Copyright -->
+                        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                            Web Design by L39220273, UA92
+                            <a class="text-dark" href="index.html">© Copyright 2023: Forestal Pharmacy</a>
+                        </div>
+                    </div>
+                </footer>
+            </div>    
+                         
+     
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+        
+    </body>
+</html>

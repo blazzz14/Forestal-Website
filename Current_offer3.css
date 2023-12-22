@@ -1,0 +1,13 @@
+#facebook-icon,
+#twitter-icon,
+#linkedin-icon {
+		width: 40px; 
+		height: 40px; 
+	}
+
+#btnleft,
+#btnright {
+    color: black;
+    font-size: 48px; /* Adjust the font size as needed */
+    }
+    

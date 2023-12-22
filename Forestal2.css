@@ -1,0 +1,48 @@
+/*Target jumboron banner*/
+#jumbotron-bg {
+    background-image: url('dispensary.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 50px; /* Adjust padding as needed */
+}
+
+#jumbotron-bg h1,
+#jumbotron-bg p {
+    color: #23212176;
+}
+
+#jumbotron-bg a {
+    color: black;
+}
+
+/* Target container images for maps, custom, and shop front */
+#google-maps-image,
+#custom-service-image,
+#shop-front-image {
+    max-width: 100%;
+    height: auto;
+    width: 700px;
+	height: 300px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+/*target footer icons*/
+#facebook-icon,
+#twitter-icon,
+#linkedin-icon {
+		width: 40px; 
+		height: 40px; 
+	}
+
+/*Target carousel buttons*/
+#btnleft,
+#btnright {
+    color: black;
+    font-size: 48px; /* Adjust the font size as needed */
+    }
+

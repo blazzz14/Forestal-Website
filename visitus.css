@@ -1,0 +1,12 @@
+/*CSS for visit us page*/
+#visit-us-container {
+    text-align: center;
+}
+
+/*CSS for footer*/
+#facebook-icon,
+#twitter-icon,
+#linkedin-icon {
+		width: 40px; 
+		height: 40px; 
+	}
